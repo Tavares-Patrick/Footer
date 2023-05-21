@@ -1,0 +1,69 @@
+:root{
+    --black: #333;
+    --fb: #3b5998;
+    --insta: #c13584;
+    --twitter: #1da1f2;
+    --git: #9225db;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+footer{
+    background-color: var(--black);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    margin-bottom: 35px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.social i{
+    padding: 10px;
+    color: gray;
+    font-size: 30px;
+}
+
+.logos:hover{
+    transition: 0.4s;
+    transform: translateY(-5px);
+}
+
+.social a .bi-facebook:hover{
+    color: var(--fb);
+}
+
+.social a .bi-instagram:hover{
+    color: var(--insta);
+}
+
+.social a .bi-twitter:hover{
+    color: var(--twitter);
+}
+
+.social a .bi-github:hover{
+    color: var(--git);
+}
+
